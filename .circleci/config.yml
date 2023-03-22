@@ -30,9 +30,9 @@ jobs:
         key: v1-dependencies-{{checksum "pom.xml"}}
     - run: mvn integration-test
 
-# Invoke jobs via workflows
-# See: https://circleci.com/docs/2.0/configuration-reference/#workflows
-workflows:
-  say-hello-workflow:
-    jobs:
-      - build
+## Invoke jobs via workflows
+## See: https://circleci.com/docs/2.0/configuration-reference/#workflows
+#workflows:
+#  say-hello-workflow:
+#    jobs:
+#      - build
