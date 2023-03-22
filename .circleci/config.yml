@@ -18,9 +18,9 @@ jobs:
       MAVEN_OPTS: -Xmx3200m
     steps:
       - checkout
-      - run:
-          name: "Say hello"
-          command: "echo Hello, World!"
+#      - run:
+#          name: "Say hello"
+#          command: "echo Hello, World!"
 
       - restore_cache:
         keys:
